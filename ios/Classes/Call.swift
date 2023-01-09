@@ -186,7 +186,7 @@ public class Call: NSObject {
         self.appName = args["appName"] as? String ?? "Callkit"
         self.handle = args["handle"] as? String ?? ""
         self.avatar = args["avatar"] as? String ?? ""
-        self.type = args["type"] as? Int ?? 0
+        self.type = args["type"] as? Int ?? 1
         self.duration = args["duration"] as? Int ?? 60000
         self.extra = args["extra"] as? NSDictionary ?? [:]
         
